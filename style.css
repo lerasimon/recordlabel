@@ -1,0 +1,193 @@
+body {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* layout */
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:30rem;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg');
+    background-size: cover;
+    flex:2;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+article {
+    flex:2;
+}
+
+aside {
+    min-height:50rem;
+    flex:2;
+
+}
+
+footer {
+    flex:1;
+    display:flex;
+    justify-content: space-between; 
+}
+
+footer p {
+    margin:0 2rem;
+}
+
+/* text*/
+
+h2 {
+    letter-spacing: 15px;
+    text-align: center;
+    margin:5rem;
+}
+
+h3,h4 {
+    letter-spacing: 5px;
+}
+
+header h1 {
+    letter-spacing: 10px;
+}
+
+header p {
+    letter-spacing:5px;
+}
+
+/*buttons*/
+
+button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:rgb(230, 168, 54);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(228, 81, 24);
+    box-shadow: 20px 0 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 175ms ease-in-out, opacity 175ms ease-in-out;
+    margin:20px;
+    color:whitesmoke;
+}
+
+button:hover {
+  transform: scale(2.03);
+  opacity: 0.9;
+  background: rgb(7, 64, 139);
+  border: 2px solid rgb(2, 25, 54);
+}
+
+/*content*/
+
+.hero-text {
+    display:flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    }
+
+/* featured */
+
+.artist {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.featured-artist img {
+    height:250px;
+    border: 8px solid black;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.featured-artist {
+    text-decoration:none;
+    color:rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 300ms ease-in-out;
+}
+
+.featured-details span {
+    display:block;
+    font-size:1.5rem;
+}
+
+.featured-artist:hover {
+    opacity:0.8;
+    transform: scale(1.2);
+}
+
+.featured-details:hover {
+    color:black;
+}
+
+
+/*new releases*/
+
+.grid-container{
+  display: grid;
+  grid-template-columns:repeat(4,200px);
+  grid-gap:10px;
+  justify-content:space-evenly;
+
+}
+
+.grid-lay-container {
+    background-color: rgba(216, 216, 216, 0.21);
+	border: solid 1px rgba(151,151,151,0.21);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius:10px;
+    padding:10px;
+
+}
+
+.grid-lay {
+    display:flex;
+    flex-direction:column;
+}
+
+img {
+    height:150px;
+}
+
+.release-date span {
+    display:block;
+}
+
+
+
+
+
+
+/* footer */
+
+/*
+.featured-artist {
+    transform: scale(0.85);
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+  }
+    
+  .featured-artist:hover .featured-details, .featured-artist:focus .featured-artist {
+    opacity: 1;
+    text-shadow: 0 0 5em black;
+  }
+  
+  .featured-artist:hover, .featured-artist:focus {
+    opacity: 0.8;
+  }
+    
+  .featured-details span {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+  }
+  /*
