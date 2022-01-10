@@ -15,7 +15,7 @@ header {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('julian-steenbergen-G4JAcx_0ZRQ-unsplash.jpg');
     background-size: cover;
     flex:2;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 15px 0.2rem rgba(7, 15, 15, 0.6));
 }
 
 article {
@@ -116,12 +116,13 @@ button:hover {
 }
 
 .featured-artist:hover {
-    opacity:0.8;
-    transform: scale(1.2);
+    filter: saturate(0.2);
+    transform: rotate(180deg);
 }
 
 .featured-details:hover {
     color:black;
+    transform: rotate(180deg);
 }
 
 
@@ -158,6 +159,10 @@ img {
 
 .release-date span {
     display:block;
+}
+
+.grid-lay img:hover {
+    transform: scale(1.4);
 }
 
 
