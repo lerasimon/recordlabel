@@ -7,8 +7,8 @@
         <script src="https://kit.fontawesome.com/6a830a0ebd.js" crossorigin="anonymous"></script>
         <script type='text/javascript'>
         function openSlideMenu() {
-            document.getElementById('spine').style.width='400px';
-            document.getElementById('sidemenu').style.marginLeft='400px';
+            document.getElementById('spine').style.width='320px';
+            document.getElementById('sidemenu').style.marginLeft='320px';
             
         }
         function closeSlideMenu() {
@@ -21,20 +21,24 @@
 
     <body>
         <div id='sidemenu' class='menu'>
+                    
             <span class='slide'>
                 <a href='#' onclick='openSlideMenu()'> 
                     <i class="fas fa-bars"></i>
                 </a>
             </span>
-        </div>
-        <div id='spine' class='nav'>
-            <a href='#' onclick='closeSlideMenu()' >
-                <i class="fas fa-times"></i>
-                <img class='bieber' src='bieber.png' />
-            </a>
+       
         </div>
 
         <header>
+            
+                <div id='spine' class='nav'>
+                    <a href='#' onclick='closeSlideMenu()' >
+                        <i class="fas fa-times"></i>
+                        <img class='bieber' src='bieber.png' />
+                    </a>
+                </div>
+            
             <div class='hero-text'>
                 <h1>1988 Records</h1>
                 <p>All the old Music You Dont Want to Miss</p>
