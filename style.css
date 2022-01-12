@@ -8,9 +8,7 @@ body {
 /* layout */
 
 header {
-    padding-bottom: 0.3rem;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    padding-bottom: 0.5rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -331,8 +329,6 @@ button:after {
 
 .bieber {
     height:29rem;
-    overflow-y:hidden;
-    overflow-x: hidden;
 }
 
 
