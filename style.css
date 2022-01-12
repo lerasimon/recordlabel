@@ -8,6 +8,7 @@ body {
 /* layout */
 
 header {
+    padding-bottom: 0.3rem;
     overflow-y: hidden;
     overflow-x: hidden;
     display:flex;
