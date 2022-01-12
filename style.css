@@ -328,6 +328,7 @@ button:after {
 
 .bieber {
     height:29rem;
+    overflow-y:hidden;
 }
 
 
