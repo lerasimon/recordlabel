@@ -8,7 +8,8 @@ body {
 /* layout */
 
 header {
-    padding-top:0.35rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -319,7 +320,7 @@ button:after {
     top:0;
     left:0;
     z-index:1;
-    color:red;
+    color:whitesmoke;
 }
 
 .nav i {
@@ -330,6 +331,7 @@ button:after {
 .bieber {
     height:29rem;
     overflow-y:hidden;
+    overflow-x: hidden;
 }
 
 
