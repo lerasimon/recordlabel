@@ -300,6 +300,32 @@ button:after {
     100% { background-position: 0 0; }
 }
 
+/*biber*/
 
+.nav {
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    transition: 0.7s;
+    overflow-x:hidden;
+}
+
+.slide i {
+    z-index:1;
+    position:fixed;
+    color:whitesmoke;
+}
+
+.nav i {
+    color:whitesmoke;
+    float:right;
+}
+
+.bieber {
+    height:30rem;
+}
 
 
