@@ -8,6 +8,7 @@ body {
 /* layout */
 
 header {
+    padding-top:0.35rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -318,7 +319,7 @@ button:after {
     top:0;
     left:0;
     z-index:1;
-    color:whitesmoke;
+    color:red;
 }
 
 .nav i {
